@@ -22,13 +22,11 @@ class SliderContent extends Component {
               <h2 className="card-title">{s.title}</h2>
               <p> {s.desc}</p>
               <button>
-                {s.color}
                 {s.button} <FontAwesomeIcon icon={faArrowRight} />
               </button>
             </div>
-            <div className="slider-picture">
-              <img src={s.imgUrl} id="img" />
-            </div>
+
+            <img src={s.imgUrl} id="img" />
           </div>
         ))}
       </section>

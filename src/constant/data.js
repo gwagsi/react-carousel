@@ -10,7 +10,7 @@ export default [
   {
     color: "blue",
     title: "I am A G",
-    desc: "whereever it is you can find it on ebay",
+    desc: "wI am A boyI am A boyhereever it is you can find it on ebay",
     button: "buy it",
     imgUrl:
       "https://images.unsplash.com/photo-1465310477141-6fb93167a273?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",
@@ -18,7 +18,7 @@ export default [
   {
     color: "green",
     title: "I am A boy",
-    desc: "whereever it is you can find it on ebay",
+    desc: "wherI am A boyI am A boyeever it is you can find it on ebay",
     button: "buy it",
     imgUrl:
       "https://images.unsplash.com/photo-1485217988980-11786ced9454?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80",

@@ -42,14 +42,15 @@ class Slider extends Component {
     return (
       <div className="slider">
         <div className="slider-items">
-          <ArrowLeft goToPrevSlide={() => this.goToPrevSlide()} />
-          <div className="slider-content">
-            <SliderContent
-              content={Data[2]}
-              activeIndex={this.state.activeIndex}
-            />
+          <div className="arrow-left">
+            <ArrowLeft goToNextSlide={() => this.goToPrevSlide()} />
           </div>
-          <ArrowRight goToNextSlide={() => this.goToNextSlide()} />
+          <div id="slider-content">
+            <SliderContent activeIndex={this.state.activeIndex} />
+          </div>
+          <div className="arrow-right">
+            <ArrowRight goToNextSlide={() => this.goToNextSlide()} />
+          </div>
         </div>
       </div>
     );

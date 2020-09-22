@@ -1,27 +1,22 @@
 .active {
   display: flex;
-  width: 100vw;
+  width: 7000x;
   height: 309px;
 }
 
-.slider-picture {
-  width: 73%;
-}
 #img {
-  width: 100%;
+  width: 73%;
   height: 308px;
   border: 1px solid black;
 }
 
 :hover #img {
-  height: 308px;
   border: 1px solid rgb(38, 0, 255) (34, 33, 33);
   border-radius: 5px;
 }
 .slider-card {
   display: flex;
   flex-direction: column;
-
   width: 27%;
 }
 .slider-card h2 {
@@ -54,19 +49,29 @@
 
 /* Styles for the slider component*/
 .slider {
-  padding: 100px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
   height: 310px;
-  width: 70import "./slider.css";vw;
+  width: 100vw;
 }
 .slider-items {
+  transition: transform 400ms ease-out;
   display: flex;
   flex-direction: row;
-  align-content: center;
+  justify-content: space-around;
   align-items: center;
-  justify-content: flex-start;
+  width: 100vw;
+  background-color: blue;
 }
-.slider-content {
-  color: red;
-  padding-right: 300px;
-  margin-right: 40px;
+#slider-content {
+  width: 100%;
+}
+.arrow-left {
+  background-color: blue;
+  position: relative;
+  left: 30px;
+}
+.arrow-right {
+  background-color: blue;
+  position: relative;
+  right: 30px;
 }
